@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #5f3c3c;
+}
+
+
+nav {
+  color: #5f3c3c;
+  flex-wrap: column;
+}
+ 
+h1{
+  text-align: left;
+  font-size: 55px;
+  font-family: fantasy;
+  color: #be6816;
+  margin: 20px 30px;
+  border: solid 20px cornsilk;
+  padding: 20px;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 42px;
+  color: rgb(16, 40, 252);
+  border: solid 10px rgb(2, 78, 150);
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 32px;
+  color: rgb(139, 56, 7);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: black inset 8px;
+}
+
+
+pre {
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+
+p {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  width: 100%;
+  color: rgb(97, 51, 8);
+  
+}
+
+
+div {
+  margin: 0 auto;
+  width: 68%;
+  background-color: #6bdcff;
+  color: black;
+  padding: 12px 18px;
+  margin: 20px 30px;
+}
+
+
+li {
+  font-size: 20px;
+  font-weight: 800;
+  font-style: oblique;
+  border: double red;
+  padding: 5px;
+  margin: 6px;
+}
+
+
+a {
+  font-family: cursive;
+  color: rgb(42, 134, 103);
+  font-size: 20px;
+  text-align: right;
+  border: dotted blue;
+}
+
+
+@media screen and (max-width: 1500px) {
+  nav,
+  main {
+    flex-direction: column;
+  }
+  aside {
+    order: 2
+  }
+  header,
+  nav {
+    background-color: crimson;
+  }
+  ul,
+  p,
+  pre {
+    background-color: rgb(13, 211, 13);
+  }
+}
