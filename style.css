@@ -78,7 +78,8 @@ a {
   color: rgb(42, 134, 103);
   font-size: 20px;
   text-align: right;
-  border: dotted blue;
+  border: solid rgb(253, 63, 152);
+
 }
 
 
